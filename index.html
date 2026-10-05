@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Summer Car - Wasm Engine</title>
+    <style>
+        body, html { margin: 0; padding: 0; overflow: hidden; width: 100%; height: 100%; font-family: monospace; background: #000; }
+        #canvas-container { width: 100%; height: 100%; }
+        #ui { position: absolute; top: 20px; left: 20px; color: #ffaa00; background: rgba(0,0,0,0.85); padding: 20px; border: 2px solid #ffaa00; border-radius: 4px; pointer-events: none; }
+    </style>
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <div id="ui">
+        <h3 style="margin: 0 0 10px 0;">SATSUMA WASM ENGINE v1.0</h3>
+        <p>⚡ Physics Engine: Rust/WebAssembly (Rapier3D)</p>
+        <p>操控 🎮 Drive: WASD / Arrow Keys</p>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
